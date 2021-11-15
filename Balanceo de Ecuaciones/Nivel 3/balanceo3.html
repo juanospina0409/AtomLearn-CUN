@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--meta http-equiv="refresh" content="5"-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <!--FONT Fondamento-->
+  <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../img atom/icon3.png" />
+	<link rel="stylesheet" href="../styles-balanceo.css">
+	<title>Balanceo de Ecuaciónes</title>
+</head>
+<body>
+	<div class="container">
+
+
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="../img atom/icon3.png" alt="AtomLearn LOGO" class="nav-brand">
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <h1>BALANCEO DE ECUACIÓNES</h1>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../../index.html">Inicio <i class="fas fa-angle-double-right"></i></a>
+        </li>
+      </ul>
+    </nav>
+		<div class="instrucciones">
+      <h3>BIENVENIDO AL NIVEL #3</h3>
+      <h3>Arrastra y suelta los atomos en el lugar correspondiente.</h3>
+			<h3>Recuerda que debes arrastrar los atomos en el orden correcto.</h3>
+  	</div>
+		<button class="btn btn-sm btn-secondary mt-3" id="boton">Verificar Respuesta</button>
+		<br>
+		<br>
+
+		<div class="row mt-5">
+			<div class="col-6 my-5">
+				<h2 class="mb-3">Arrastra los atomos a la Derecha</h2>
+
+				<div class="titulo list-group-item list-group-item-primary">
+					<h5>Atomos Disponibles:</h5>
+				</div>
+				<div class="list-group" id="tareas">
+
+					<div class="list-group" data-id="H">
+						<i class="fas fa-grip-lines mr-2">
+							<img src="../img atom/atomo de hidrogeno.png">
+						</i>
+						<p class="nombre">Atomo de Hidrogeno</p>
+					</div>
+
+					<div class="list-group" data-id="N">
+						<i class="fas fa-grip-lines mr-2">
+							<img src="../img atom/atomo de nitrogeno.png">
+						</i>
+						<p class="nombre">Atomo de Nitrogeno</p>
+					</div>
+
+					<div class="list-group" data-id="O">
+						<i class="fas fa-grip-lines mr-2">
+							<img src="../img atom/atomo de oxigeno.png">
+						</i>
+						<p class="nombre">Atomo de Oxigeno</p>
+					</div>
+
+					<div class="list-group" data-id="S">
+						<i class="fas fa-grip-lines mr-2">
+							<img src="../img atom/atomo de azufre.png">
+						</i>
+						<p class="nombre">Atomo de Azufre</p>
+					</div>
+
+					<div class="list-group" data-id="O">
+						<i class="fas fa-grip-lines mr-2">
+							<img src="../img atom/atomo de oxigeno.png">
+						</i>
+						<p class="nombre">Atomo de Oxigeno</p>
+					</div>
+
+					<div class="list-group" data-id="N">
+						<i class="fas fa-grip-lines mr-2">
+							<img src="../img atom/atomo de nitrogeno.png">
+						</i>
+						<p class="nombre">Atomo de Nitrogeno</p>
+					</div>
+
+					<div class="list-group" data-id="H">
+						<i class="fas fa-grip-lines mr-2">
+							<img src="../img atom/atomo de hidrogeno.png">
+						</i>
+						<p class="nombre">Atomo de Hidrogeno</p>
+					</div>
+
+					<div class="list-group" data-id="O">
+						<i class="fas fa-grip-lines mr-2">
+							<img src="../img atom/atomo de oxigeno.png">
+						</i>
+						<p class="nombre">Atomo de Oxigeno</p>
+					</div>
+
+					<div class="list-group" data-id="Na">
+						<i class="fas fa-grip-lines mr-2">
+							<img src="../img atom/atomo de sodio.png">
+						</i>
+						<p class="nombre">Atomo de Sodio</p>
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="col-6 my-5">
+				<h2 class="mb-3">Acido Nítrico </h2>
+				<div class="titulo list-group-item list-group-item-primary">
+					<h5>Formular el Balanceo:</h5>
+				</div>
+				<div class="list-group" id="tareasCompletadas">
+
+				</div>
+				<br>
+				<a href="../Nivel 4/balanceo4.html">
+					<button class="btn2 btn-sm btn-success" id="boton2" disabled>Siguiente Nivel</button>
+				</a>
+				<br>
+				<a href="../Nivel 2/balanceo2.html">
+					<button class="btn2 btn-sm btn-danger" id="boton3">Anterior Nivel</button>
+				</a>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="../js/Sortable.min.js"></script>
+	<script src="js/main-balanceo.js"></script>
+</body>
+</html>

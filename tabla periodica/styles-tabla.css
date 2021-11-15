@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+  background-color: #000000;
+  background-size: 1080px;
+  background-image: url("https://cutewallpaper.org/21/wallpaper-for-website/Website-wallpaper.gif");
+  font-size: 16px;
+  font-family: 'Fondamento', cursive;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*TAMAÑO DE LOGO*/
+.nav-brand {
+  min-width: 170px;
+  width: 170px;           /*  200px*/
+}
+/*Navegation*/
+.nav-main {
+  min-width: 80%;
+  font-size: 20px;          /*  17px*/
+  display: flex;
+  justify-content: space-between;         /*  space-between;*/
+  align-items:center;           /*  center*/
+  height: 123px;           /*  60px ó 123px*/
+  /*padding: 50px 0;             /*  20px*/
+  /*margin: 2px 2px;*/
+}
+
+/*NAV-lEFT*/
+.nav-main ul {
+  display: contents;            /*  flex (funciona contents)*/
+}
+
+/*MODIFICAR ESPACIOS entre la navegacion y lineas de separacion*/
+.nav-main ul li a{
+  padding: 10px;           /*  2px*/
+}
+
+/*INICIO*/
+.nav-main ul li a:hover{
+  border-bottom: 2px solid #ffffff;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #35ccce;
+  transition: all .3s;
+  /*margin: 0 5px 15px;*/
+}
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 500px;          /*  20px*/
+  margin-top: 0px;               /*  no habia esto*/
+}
+.nav-menu ul li h1{
+  text-align: center;
+}
+
+/*IMAGEN DE LA TABLA PERIODICA*/
+.Tablas .Tabla img {
+	width: 1020px;
+	/*border-radius: 100%;*/
+}
+
+/*ZOOM DE LA IMAGEN*/
+.zoom:hover {
+  transform: scale(1.45);
+  position: inherit;
+  overflow: hidden;
+}

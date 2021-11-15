@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\PROYECTOS VS CODE"
+		},
+		{
+			"path": "..\\..\\..\\..\\Pruebas vs code"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pruebas vs code"
+	}
+}

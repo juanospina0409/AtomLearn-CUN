@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #39cb2a;
+  color: #ffffff;
+  background-color: #000000;
+  background-size: 880px;
+  background-image: url("https://cutewallpaper.org/21/wallpaper-for-website/Website-wallpaper.gif");
+  font-size: 16px;
+  font-family: 'Fondamento', cursive;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*TAMAÑO DE LOGO*/
+.nav-brand {
+  min-width: 170px;
+  width: 170px;           
+}
+
+/*Navegacion*/
+.nav-main {
+  min-width: 20%;
+  font-size: 20px;          
+  display: flex;
+  justify-content: space-between;         
+  align-items: center;          
+  height: 123px;           
+}
+
+/*NAV-lEFT*/
+.nav-main ul {
+  display: flex;       
+}
+/*cosas adiconales (linea de espaciado entre opciones de nav)-------------------------------------------------------------------------------------------------------------------*/
+li {
+    float: left;
+}
+
+/*MODIFICAR ESPACIOS entre la navegacion y lineas de separacion*/
+.nav-main ul li a{
+  padding: 10px;           
+}
+.nav-main ul li a:hover{
+  border-bottom: 2px solid #ffffff;
+}
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 110px;          
+  margin-top: 10px;               
+}
+.text_input{
+  border-radius: 30px;
+}
+
+/*SUBSTEMAS DESPLEGABLES DE MENU PRINCIPAL----------------------------------------------------------------------------------------------------------------*/
+.nav-menu li a:hover {
+  border-radius: 20px;
+  color: #35ccce;
+	transition: all .3s;
+}
+.nav-menu li ul {
+  position: absolute;
+  direction: 100px;
+
+}
+/*SUBTEMAS*/
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block;            
+	padding: 15px 10px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+.nav-menu li:hover .submenu {
+  visibility: visible;
+	opacity: 1;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*NAV HORIZONTAL RIGHT-->*/
+#navegador ul{
+   list-style-type: none;                  
+   text-align: right;          
+}
+/*para que sea vertical*/
+a
+{
+display: run-in;     
+width: 100px;             
+}
+/*estilos para cada uno de los elementos de la lista (etiqueta LI)*/
+#navegador li{
+   display: inline-block;            
+   text-align: center;
+   margin: 3 15px 0 6;                 
+}
+
+
+/*estilos para los enlaces de buscador derecho*/
+#navegador li a {
+   padding: 1px 2  px 1px 2px;        
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+  display:block;
+  width: 200px;
+  background-color: #dddddd;
+}
+/*cuando el ratón pasa por encima de un enlace de buscador derecho*/
+#navegador li a:hover{
+   background-color: #333333;
+   color: #2a66de;                
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/*BOTON SABER MAS-----*/
+.btn-saber-mas {
+  max-width: 100%;
+  cursor: pointer;
+  display: inline-block;
+  border: o;
+  font-weight: bold;
+  /*padding: 10px 20px;*/
+  background: #05989a;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.btn-saber-mas:hover {
+  opacity: .8;
+  border-radius: 10px;
+}
+
+/*SHOWCASE y SHOWCASE1*/
+hr {
+  margin: 1px 0;
+}
+.showcase {
+  width: 50%;
+  margin-top: 10px;
+  height: 180px;                              
+  background: url('img/portada1.gif') no-repeat center center/cover;
+  border-radius: 20px;
+  float: right;
+  display: inline-table;           
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  justify-content: flex-end;
+  padding-bottom: 45px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.showcase p, .showcase h1 {
+  margin: 1px 0 1px 0;
+}
+
+.showcase1 h2 {
+  margin: 10px 50px 10px 0;
+}              
+.showcase li a {
+  text-decoration: none;
+}
+.showcase1 p {
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+
+/*OPACIDAD DE SIMBOLO BUSCADOR*/
+.fa-search:hover {
+  opacity: .4;
+}
+
+/*FOOTER LINKS*/
+.footer-links {
+  background: #2f3640;
+  color: #616161;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 114px;
+}
+.footer-container {
+  display: flex;         
+  text-align: left;
+}
+.footer-container ul {
+  margin: auto;
+}
+.footer-container li a {
+  margin: 0 10px 10px 0;
+  text-align: left;
+}
+.cun:hover {
+  opacity: .4;
+}
+.footer-links li {
+  line-height: 1.8;
+}
+.footer {
+  background: #2f3640;
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}

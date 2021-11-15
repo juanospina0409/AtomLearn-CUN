@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #000;
+  background-color: #000;
+  background-size: 1800px;
+  background-image: url("https://cutewallpaper.org/21/wallpaper-for-website/Website-wallpaper.gif");
+  font-size: 16px;
+  font-family: 'Fondamento', cursive;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.fas {
+	cursor: move;
+}
+.container h2 {
+  color: #fff;
+}
+.container {
+  width: 95%;
+  margin: auto;
+  max-width: 1200px;
+}
+.container .list-group {
+	background: #F3F5FA;
+	box-shadow: 0px 0px 20px rgba(149, 153, 159, .16);
+	border-radius: 10px;
+}
+/************************************************************************************************/
+/*TAMAÑO DE LOGO*/
+.nav-brand {
+  min-width: 170px;
+  width: 170px;           /*  200px*/
+}
+
+/*Navegation*/
+.nav-main {
+  min-width: 80%;
+  font-size: 20px;          /*  17px*/
+  display: flex;
+  justify-content: space-between;         /*  space-between;*/
+  align-items:center;           /*  center*/
+  height: 123px;           /*  60px ó 123px*/
+  /*padding: 50px 0;             /*  20px*/
+  /*margin: 2px 2px;*/
+}
+
+/*NAV-lEFT*/
+.nav-main ul {
+  display: contents;            /*  flex (funciona contents)*/
+}
+/*MODIFICAR ESPACIOS entre la navegacion y lineas de separacion*/
+.nav-main ul li a{
+  padding: 10px;           /*  2px*/
+}
+/*INICIO*/
+.nav-main ul li a:hover{
+  border-bottom: 2px solid #ffffff;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #35ccce;
+  transition: all .3s;
+  /*margin: 0 5px 15px;*/
+}
+.nav-main ul.nav-menu {
+  min-width: 40%;
+  flex: 1;
+  color: #fff;
+  text-align: center;
+}
+
+.nav-menu ul li h1{
+  text-align: center;
+}
+
+.btn {
+  float: right;
+}
+.btn2 {
+  float: right;
+}
+.container .list-group-item {
+	background: #fff;
+	display: grid;
+	grid-template-columns: auto 1fr 1fr 1fr;
+	align-items: center;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.container .list-group-item {
+  margin-top: -10px;
+}
+
+.list-group img {
+	width: 100px;
+	border-radius: 100%;
+	margin-right: 20px;
+}
+
+.list-group i {
+  margin: 10px;
+  min-height: 50px;
+}
+.container .list-group p {
+  text-align: center;
+  padding-top: -200px;
+}
+
+.instrucciones {
+  text-align: center;
+  color: #fff;
+}
+.mb-3 {
+  margin-top: -90px;
+}
